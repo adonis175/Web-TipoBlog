@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Chispa Artificial</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Chispa Artificial</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="articulos.html">Artículos</a></li>
+          <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes preguntas o sugerencias? ¡Nos encantaría saber de ti!</p>
+
+        <form
+          action="mailto:tu-correo@dominio.com"
+          method="POST"
+          class="formulario-contacto"
+        >
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+            required
+          />
+
+          <label for="correo">Correo Electrónico:</label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="Tu correo electrónico"
+            required
+          />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Escribe tu mensaje aquí..."
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section class="redes-sociales">
+        <h2>También puedes encontrarnos en:</h2>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+              <img src="imagenes/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+              <img src="imagenes/instagram.png" alt="Instagram"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener">
+              <img src="imagenes/whatssapp.png" alt="Whatsapp"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contenido_footer">
+        <p>2024 Chispa Artificial. Todos los derechos reservados</p>
+        <ul class="links">
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="#">Términos de Uso</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
